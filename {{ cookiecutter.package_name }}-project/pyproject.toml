@@ -1,0 +1,76 @@
+[tool.poetry]
+name = "{{ cookiecutter.package_name }}"
+version = "{{ cookiecutter.semantic_version }}"
+description = "A sample AWS CodeArtifact Python project"
+authors = [
+    "{{ cookiecutter.author_name }} <{{ cookiecutter.author_email }}>",
+]
+maintainers = [
+    "{{ cookiecutter.author_name }} <{{ cookiecutter.author_email }}>",
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+# Poetry dependencies specification document
+# https://python-poetry.org/docs/dependency-specification/
+pathlib_mate = "~1.2.1"
+
+
+[tool.poetry.dev-dependencies]
+# Don't put anything here, explicit is better than implicit
+
+
+[tool.poetry.group.dev]
+optional = true
+
+
+[tool.poetry.group.dev.dependencies]
+twine = "3.8.0"
+wheel = "0.37.1"
+rich = "12.6.0"
+fire = "0.5.0"
+cottonformation = "1.0.1"
+aws_cloudformation = "1.2.1"
+
+
+[tool.poetry.group.doc]
+optional = true
+
+
+[tool.poetry.group.doc.dependencies]
+python = "~3.8"
+Sphinx = "4.3.0"
+sphinx-jinja = "1.1.1"
+sphinx-copybutton = "0.4.0"
+sphinx-inline-tabs = "2021.8.17b10"
+rstobj = "1.2.1"
+docfly = "1.1.1"
+furo = "2021.8.31"
+
+
+[tool.poetry.group.test]
+optional = true
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "6.2.5"
+pytest-cov = "2.12.1"
+
+
+[[tool.poetry.source]]
+name = "{{ cookiecutter.poetry_second_source_name }}"
+url = "https://bmt-{{ cookiecutter.aws_account_id }}.d.codeartifact.{{ cookiecutter.aws_region }}.amazonaws.com/pypi/{{ cookiecutter.codeartifact_repository }}/simple/"
+default = false
+secondary = true
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.aws]
+aws_profile = "{{ cookiecutter.aws_profile }}"
+aws_codeartifact_domain = "{{ cookiecutter.codeartifact_domain }}"
+aws_codeartifact_repository = "{{ cookiecutter.codeartifact_repository }}"
