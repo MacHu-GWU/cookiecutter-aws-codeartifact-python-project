@@ -1,5 +1,8 @@
 # User Settings
 /tmp
+aws_codeartifact_python_user-project/*
+*.drawio.bkp
+
 #cookiecutterize.py
 
 # Byte-compiled / optimized / DLL files
