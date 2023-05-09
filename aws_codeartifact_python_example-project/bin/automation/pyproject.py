@@ -60,7 +60,7 @@ class PyProject:
 
     @property
     def poetry_secondary_source_name(self) -> str:
-        return self.aws_codeartifact_repository.replace("-", "_")
+        return "codeartifact"
 
 
 pyproject = PyProject.new()
