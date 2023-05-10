@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2023-05-09T16:08:51.610Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="HlNTznvyLGIk8DstmnKp" version="21.2.8" type="device" pages="2">
+<mxfile host="Electron" modified="2023-05-10T01:09:36.998Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="hrLoSP3O5CafWpJCbUm8" version="21.2.8" type="device" pages="2">
   <diagram name="How-it-Work" id="c3A5GBgAs8Jyap0qg41B">
-    <mxGraphModel dx="1604" dy="988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="909" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,10 +25,10 @@
         <mxCell id="g2GatpI702hafy2E-ycQ-16" value="Publish to Private repository" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="120" width="480" height="560" as="geometry" />
         </mxCell>
-        <mxCell id="g2GatpI702hafy2E-ycQ-7" value="&lt;pre style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;twine upload {package} -- repository codeartifact&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="g2GatpI702hafy2E-ycQ-16" vertex="1">
+        <mxCell id="g2GatpI702hafy2E-ycQ-7" value="&lt;pre style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;twine upload {package} --repository codeartifact&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="g2GatpI702hafy2E-ycQ-16" vertex="1">
           <mxGeometry x="40" y="80" width="400" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="g2GatpI702hafy2E-ycQ-8" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.codeartifact;" parent="g2GatpI702hafy2E-ycQ-16" vertex="1">
+        <mxCell id="g2GatpI702hafy2E-ycQ-8" value="AWS CodeArtifact" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.codeartifact;" parent="g2GatpI702hafy2E-ycQ-16" vertex="1">
           <mxGeometry x="200" y="240" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="g2GatpI702hafy2E-ycQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="g2GatpI702hafy2E-ycQ-16" source="g2GatpI702hafy2E-ycQ-7" target="g2GatpI702hafy2E-ycQ-8" edge="1">
@@ -55,7 +55,7 @@
         <mxCell id="g2GatpI702hafy2E-ycQ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="g2GatpI702hafy2E-ycQ-19" source="g2GatpI702hafy2E-ycQ-17" target="g2GatpI702hafy2E-ycQ-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g2GatpI702hafy2E-ycQ-34" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.identity_and_access_management;" parent="g2GatpI702hafy2E-ycQ-19" vertex="1">
+        <mxCell id="g2GatpI702hafy2E-ycQ-34" value="IAM" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.identity_and_access_management;" parent="g2GatpI702hafy2E-ycQ-19" vertex="1">
           <mxGeometry x="240" y="80" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="g2GatpI702hafy2E-ycQ-30" value="Auth" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="g2GatpI702hafy2E-ycQ-19" source="g2GatpI702hafy2E-ycQ-20" target="g2GatpI702hafy2E-ycQ-34" edge="1">
@@ -83,8 +83,11 @@
         <mxCell id="vpjdOIo-1uPtVdd_6TiR-6" value="CI/CD Automation" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#FF8000;shape=mxgraph.azure.git_repository;" parent="vpjdOIo-1uPtVdd_6TiR-7" vertex="1">
           <mxGeometry x="80" y="400" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EJ8RLaH9uMjsW6H8Zzfi-1" value="&lt;h1&gt;Links&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/codeartifact/&quot;&gt;AWS CodeArtifact&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://docs.aws.amazon.com/codeartifact/latest/ug/python-configure-twine.html&quot;&gt;Python + CodeArtifact&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://python-poetry.org/docs/repositories/&quot;&gt;Poetry + CodeArtifact&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/MacHu-GWU/cookiecutter-aws-codeartifact-python-project&quot;&gt;cookiecutter-aws-codeartifact-python-project&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EJ8RLaH9uMjsW6H8Zzfi-1" value="&lt;h1&gt;Links&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/codeartifact/&quot;&gt;AWS CodeArtifact&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://docs.aws.amazon.com/codeartifact/latest/ug/python-configure-twine.html&quot;&gt;Python + CodeArtifact&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://python-poetry.org/docs/repositories/&quot;&gt;Poetry + CodeArtifact&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/MacHu-GWU/cookiecutter-aws-codeartifact-python-project&quot;&gt;cookiecutter-aws-codeartifact-python-project&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1080" y="760" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="npBWS5owhhZfzvqGNDjz-2" value="What is Code Repository?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="640" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
